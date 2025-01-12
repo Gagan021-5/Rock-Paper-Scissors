@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors ✊✋✌️</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+    </style>
+  </head>
+  <body>
+    <header><h1>Rock Paper Scissors</h1></header>
+    <main>
+      <div class="container">
+        <div id="main">
+          <div class="choice1" id="rock">
+            <img src="images/rock.png" />
+          </div>
+          <div class="choice2" id="paper">
+            <img src="images/paper.png" />
+          </div>
+          <div class="choice3" id="scissors">
+            <img src="images/scissors.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="score-board">
+        <div clas="scores">
+          <p id="user">0</p>
+          <p id="style">You</p>
+        </div>
+        <div class="scores">
+          <p id="computer">0</p>
+          <p id="style">Computer</p>
+        </div>
+      </div>
+      <div class="msg-box">
+        <p id="press">Play your move</p>
+      </div>
+    </main>
+    <script src="logic.js"></script>
+  </body>
+</html>
